@@ -1,6 +1,6 @@
-.lineUp {
+#title,#min-title ,#hero-btn {
     animation: drop-in 1200ms ease 500ms backwards;
-   }
+   } 
    
    @keyframes drop-in {
     from {
