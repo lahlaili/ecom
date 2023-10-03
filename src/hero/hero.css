@@ -1,4 +1,4 @@
-.lineUp {
+#title,#min-title,#hero-btn {
     animation: drop-in 1200ms ease 500ms backwards;
    }
    
@@ -30,7 +30,7 @@
 #hero{
     /* border: blue solid; */
     height: 91vh;
-    background-image: url('../../images/ecom_auto_x2.jpg');
+    background-image: url('../../images/pexels-marlene-leppänen-1183266-removebg.png');
     background-position: center;
     background-size: cover;
 }
@@ -42,12 +42,12 @@
 }
 #title{
     font-size: 50px;
-    width: 204px;
+    /* width: 204px; */
     text-align: justify;
     font-weight: bolder;
     word-spacing: 5px;
     margin-bottom: -10px;
 }
-#winter{
+/* #winter{
     width: 360px;
-}
+} */
