@@ -36,3 +36,9 @@ rgb(251, 81, 81)
     font-size: var( --med-text );
     color: rgb(251, 81, 81);
 }
+@media (max-width:650px){
+   .p-container{
+    width: 80%;
+   }
+    
+}
