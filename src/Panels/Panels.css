@@ -19,7 +19,7 @@
     height: 40px;
 }
 #panel-left{
-    background-image: url(../../images/banner-left_91af4f83-6d23-4286-8584-53b3ebbe7f2e.png);
+    background-image: url(../../images/banner-left_91af4f83-6d23-4286-8584-53b3ebbe7f2e_auto_x2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
 }
 
 #panel-rigth{
-    background-image: url(../../images/banner-right_4559d6ac-37ed-43c3-92c9-d46440d88db2.png);
+    background-image: url(../../images/banner-right_4559d6ac-37ed-43c3-92c9-d46440d88db2_auto_x2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

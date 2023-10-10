@@ -1,7 +1,7 @@
 import './TopItem.css'
 import img from '../img/new.jpg'
 import img2 from '../img/mockup-t-shirt-hanger-held-by-hand-flat-background_125540-1472.jpg'
-import img3 from '../img/respect-typography-t-shirt-design_136545-497.jpg'
+// import img3 from '../img/respect-typography-t-shirt-design_136545-497.jpg'
 
 
 const TopItem = () => {
