@@ -1,0 +1,44 @@
+/* 
+#295ac3
+#cccccc
+#f2b600
+rgb(251, 81, 81)
+ */
+ :root{
+    --lite-color:#cccccc;
+    
+ }
+.p-container{
+    width: 200px;
+    /* background-color: var(--lite-color); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+
+.p-container img{
+    width: 100%;
+}
+.p-container h2{
+    padding: 16px 2px 0px 2px;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+.p-container h3{
+    font-size: var( --med-text );
+    color: rgb(251, 81, 81);
+}
+@media (max-width:650px){
+   .p-container{
+    width: 80%;
+   }
+    
+}
