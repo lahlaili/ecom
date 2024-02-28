@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+    <!--  Update the existing view for account.move  -->
+        <record id="view_account_move_form" model="ir.ui.view">
+            <field name="name">account.move.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree/field[@name='name']" position="after">
+                    <!--  Add the 'effectif' field after the 'name' field  -->
+                    <field name="site" string="Site" optional="show"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
